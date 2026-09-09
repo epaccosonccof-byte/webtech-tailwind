@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>PRIMAVERA - Tienda de Ropa</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-stone-100 text-gray-800">
+
+    <!-- HEADER -->
+    <header class="bg-white border-b border-gray-200">
+
+        <div class="max-w-7xl mx-auto px-6 py-5">
+
+            <div class="flex flex-col md:flex-row justify-between items-center gap-5">
+
+                <!-- LOGO -->
+                <h1 class="text-3xl font-serif font-bold text-gray-900">
+                    PRIMAVERA
+                </h1>
+
+                <button class="md:hidden bg-gray-900 text-white px-4 py-2 rounded-md">
+    Menú
+</button>
+
+                <!-- MENÚ DE NAVEGACIÓN -->
+                <nav>
+                    <ul class="flex flex-wrap justify-center gap-7">
+
+                        <li>
+                            <a href="#inicio" class="hover:text-gray-500 transition">
+                                Inicio
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#productos" class="hover:text-gray-500 transition">
+                                Colección
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#ofertas" class="hover:text-gray-500 transition">
+                                Ofertas
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#contacto" class="hover:text-gray-500 transition">
+                                Contacto
+                            </a>
+                        </li>
+
+                    </ul>
+                </nav>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <main>
+
+        <!-- SECCIÓN INICIO -->
+        <section id="inicio" class="bg-stone-200">
+
+            <div class="max-w-7xl mx-auto px-6 py-24 text-center">
+
+                <p class="text-gray-600 uppercase tracking-widest text-sm">
+                    Colección 2026
+                </p>
+
+                <h2 class="text-4xl md:text-6xl font-serif font-bold mt-4 text-gray-900">
+                    Elegancia para cada ocasión
+                </h2>
+
+                <p class="max-w-2xl mx-auto mt-6 text-gray-600 text-lg">
+                    Descubre prendas clásicas y modernas seleccionadas
+                    para acompañar tu estilo todos los días.
+                </p>
+
+                <div class="mt-8">
+
+                    <a href="#productos"
+                        class="inline-block bg-gray-900 text-white px-8 py-3 rounded-md hover:bg-gray-700 transition">
+                        Ver colección
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- SECCIÓN PRODUCTOS -->
+        <section id="productos" class="py-16">
+
+            <div class="max-w-7xl mx-auto px-6">
+
+                <div class="text-center mb-12">
+
+                    <h2 class="text-3xl md:text-4xl font-serif font-bold">
+                        Nuestra colección
+                    </h2>
+
+                    <p class="text-gray-500 mt-3">
+                        Prendas seleccionadas para cada estilo.
+                    </p>
+
+                </div>
+
+
+                <!-- TARJETAS DE PRODUCTOS -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+
+                    <!-- PRODUCTO 1 -->
+                    <article
+                        class="bg-white rounded-lg shadow-sm overflow-hidden hover:shadow-xl hover:-translate-y-1 transition duration-300">
+
+                        <div class="h-64 bg-gray-200 flex items-center justify-center text-6xl">
+                            👕
+                        </div>
+
+                        <div class="p-6">
+
+                            <p class="text-sm text-gray-500">
+                                Camisas
+                            </p>
+
+                            <h3 class="text-xl font-serif font-bold mt-1">
+                                Camisa Clásica
+                            </h3>
+
+                            <p class="text-gray-500 mt-2">
+                                Camisa de corte clásico para cualquier ocasión.
+                            </p>
+
+                            <div class="flex justify-between items-center mt-5">
+
+                                <span class="text-lg font-semibold">
+                                    S/ 69.90
+                                </span>
+
+                                <button
+                                    class="bg-gray-900 text-white px-4 py-2 rounded-md hover:bg-gray-700 transition">
+                                    Comprar
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- PRODUCTO 2 -->
+                    <article
+                        class="bg-white rounded-lg shadow-sm overflow-hidden hover:shadow-xl hover:-translate-y-1 transition duration-300">
+
+                        <div class="h-64 bg-gray-200 flex items-center justify-center text-6xl">
+                            👖
+                        </div>
+
+                        <div class="p-6">
+
+                            <p class="text-sm text-gray-500">
+                                Pantalones
+                            </p>
+
+                            <h3 class="text-xl font-serif font-bold mt-1">
+                                Pantalón Clásico
+                            </h3>
+
+                            <p class="text-gray-500 mt-2">
+                                Diseño cómodo y elegante para el día a día.
+                            </p>
+
+                            <div class="flex justify-between items-center mt-5">
+
+                                <span class="text-lg font-semibold">
+                                    S/ 89.90
+                                </span>
+
+                                <button
+                                    class="bg-gray-900 text-white px-4 py-2 rounded-md hover:bg-gray-700 transition">
+                                    Comprar
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- PRODUCTO 3 -->
+                    <article
+                        class="bg-white rounded-lg shadow-sm overflow-hidden hover:shadow-xl hover:-translate-y-1 transition duration-300">
+
+                        <div class="h-64 bg-gray-200 flex items-center justify-center text-6xl">
+                            👗
+                        </div>
+
+                        <div class="p-6">
+
+                            <p class="text-sm text-gray-500">
+                                Vestidos
+                            </p>
+
+                            <h3 class="text-xl font-serif font-bold mt-1">
+                                Vestido Elegante
+                            </h3>
+
+                            <p class="text-gray-500 mt-2">
+                                Una prenda sencilla y elegante para ocasiones especiales.
+                            </p>
+
+                            <div class="flex justify-between items-center mt-5">
+
+                                <span class="text-lg font-semibold">
+                                    S/ 99.90
+                                </span>
+
+                                <button
+                                    class="bg-gray-900 text-white px-4 py-2 rounded-md hover:bg-gray-700 transition">
+                                    Comprar
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- PRODUCTO 4 -->
+                    <article
+                        class="bg-white rounded-lg shadow-sm overflow-hidden hover:shadow-xl hover:-translate-y-1 transition duration-300">
+
+                        <div class="h-64 bg-gray-200 flex items-center justify-center text-6xl">
+                            🧥
+                        </div>
+
+                        <div class="p-6">
+
+                            <p class="text-sm text-gray-500">
+                                Abrigos
+                            </p>
+
+                            <h3 class="text-xl font-serif font-bold mt-1">
+                                Abrigo Clásico
+                            </h3>
+
+                            <p class="text-gray-500 mt-2">
+                                Abrigo de diseño sencillo y atemporal.
+                            </p>
+
+                            <div class="flex justify-between items-center mt-5">
+
+                                <span class="text-lg font-semibold">
+                                    S/ 149.90
+                                </span>
+
+                                <button
+                                    class="bg-gray-900 text-white px-4 py-2 rounded-md hover:bg-gray-700 transition">
+                                    Comprar
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- PRODUCTO 5 -->
+                    <article
+                       class="bg-white rounded-lg shadow-sm overflow-hidden hover:shadow-xl hover:-translate-y-1 transition duration-300">
+
+                        <div class="h-64 bg-gray-200 flex items-center justify-center text-6xl">
+                            👚
+                        </div>
+
+                        <div class="p-6">
+
+                            <p class="text-sm text-gray-500">
+                                Blusas
+                            </p>
+
+                            <h3 class="text-xl font-serif font-bold mt-1">
+                                Blusa Tradicional
+                            </h3>
+
+                            <p class="text-gray-500 mt-2">
+                                Diseño cómodo para combinar con diferentes prendas.
+                            </p>
+
+                            <div class="flex justify-between items-center mt-5">
+
+                                <span class="text-lg font-semibold">
+                                    S/ 64.90
+                                </span>
+
+                                <button
+                                    class="bg-gray-900 text-white px-4 py-2 rounded-md hover:bg-gray-700 transition">
+                                    Comprar
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- PRODUCTO 6 -->
+                    <article
+                        class="bg-white rounded-lg shadow-sm overflow-hidden hover:shadow-xl hover:-translate-y-1 transition duration-300">
+
+                        <div class="h-64 bg-gray-200 flex items-center justify-center text-6xl">
+                            👞
+                        </div>
+
+                        <div class="p-6">
+
+                            <p class="text-sm text-gray-500">
+                                Calzado
+                            </p>
+
+                            <h3 class="text-xl font-serif font-bold mt-1">
+                                Zapato Clásico
+                            </h3>
+
+                            <p class="text-gray-500 mt-2">
+                                Calzado elegante para completar tu vestimenta.
+                            </p>
+
+                            <div class="flex justify-between items-center mt-5">
+
+                                <span class="text-lg font-semibold">
+                                    S/ 129.90
+                                </span>
+
+                                <button
+                                    class="bg-gray-900 text-white px-4 py-2 rounded-md hover:bg-gray-700 transition">
+                                    Comprar
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- SECCIÓN OFERTAS -->
+        <section id="ofertas" class="bg-gray-800 text-white py-16">
+
+            <div class="max-w-5xl mx-auto px-6 text-center">
+
+                <p class="text-gray-300 uppercase tracking-widest text-sm">
+                    Temporada especial
+                </p>
+
+                <h2 class="text-3xl md:text-5xl font-serif font-bold mt-3">
+                    Hasta 30% de descuento
+                </h2>
+
+                <p class="text-gray-300 mt-5">
+                    Aprovecha nuestras ofertas en productos seleccionados.
+                </p>
+
+                <button
+                    class="mt-8 bg-white text-gray-900 px-8 py-3 rounded-md font-semibold hover:bg-gray-200 transition">
+                    Ver ofertas
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- SECCIÓN CONTACTO -->
+        <section id="contacto" class="py-16 bg-white">
+
+            <div class="max-w-4xl mx-auto px-6 text-center">
+
+                <h2 class="text-3xl font-serif font-bold">
+                    Contáctanos
+                </h2>
+
+                <p class="text-gray-500 mt-4">
+                    Estamos disponibles para ayudarte con tus compras.
+                </p>
+
+                <button
+                    class="mt-6 bg-gray-900 text-white px-8 py-3 rounded-md hover:bg-gray-700 transition">
+                    Contactar
+                </button>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="bg-gray-900 text-white py-8">
+
+        <div class="max-w-7xl mx-auto px-6 text-center">
+
+            <h3 class="text-xl font-serif font-bold">
+                PRIMAVERA
+            </h3>
+
+            <p class="text-gray-400 mt-2">
+                Calidad y elegancia en cada prenda.
+            </p>
+
+            <p class="text-gray-500 text-sm mt-5">
+                © 2026 PRIMAVERA - Proyecto académico
+            </p>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
